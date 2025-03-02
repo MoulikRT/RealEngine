@@ -1,0 +1,36 @@
+RealEngine
+==========
+Not related to UnrealEngine -> fr
+
+Getting Started
+---------------
+
+1. Clone the repository:
+
+   .. code-block:: bash
+
+      git clone https://github.com/MoulikRT/RealEngine
+
+2. Create a build directory:
+
+   .. code-block:: bash
+
+      mkdir build
+
+3. Navigate to the build directory:
+
+   .. code-block:: bash
+
+      cd build
+
+4. Configure the project with CMake:
+
+   .. code-block:: bash
+
+      cmake .. -G Ninja
+
+5. Build the project:
+
+   .. code-block:: bash
+
+      ninja
